@@ -1,12 +1,28 @@
 package afpa.Servlet;
 
 import java.io.IOException;
+<<<<<<< HEAD
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+=======
+import java.sql.Connection;
+import java.util.List;
+
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import afpa.Beans.User;
+import afpa.DAO.UserDao;
+>>>>>>> branch 'master' of https://github.com/sed125/crud
 
 /**
  * Servlet implementation class LoginServlet

@@ -3,6 +3,10 @@ package afpa.Servlet;
 import afpa.Beans.User;
 import afpa.DAO.UserDao;
 import java.io.IOException;
+<<<<<<< HEAD
+=======
+import java.sql.SQLException;
+>>>>>>> branch 'master' of https://github.com/sed125/crud
 import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
