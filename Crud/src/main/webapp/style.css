@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	background-color: #babdb6;
+	color: black;
+}
+
+a, a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+#formLogin{
+	text-align: center;
+}
+
+#listUser h4 {
+	text-align: center;
+}
+#listUser table {
+	width: 95%;
+	height: 100px;
+}  
+#listUser table, th, td {
+	margin-top: 2%;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+	text-align:center;
+} 
+#listUser td.idUser {
+	width: 60px;
+}
+
+
+#styleAddUser{
+	text-align: center;
+}
+
+#updateUs{
+	text-align: center;
+}
